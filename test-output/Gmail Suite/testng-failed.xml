@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Gmail Suite]" parallel="tests">
+  <test thread-count="1" name="Smax Automation Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.sis.qa.testcases.ApplyNowPageTest">
+        <methods>
+          <include name="scrolldown2Test"/>
+          <include name="EnterNationalIdTest"/>
+          <include name="ChangeLanguageTest"/>
+          <include name="TermDropdownTest"/>
+          <include name="ClickonCreateMyAccountTest"/>
+          <include name="EnterMeasurementTestScoreTest"/>
+          <include name="FirstPerferencedropdownTest"/>
+          <include name="EnterApplyNowUsernameTest"/>
+          <include name="validateCreateAccountTitleTest"/>
+          <include name="tearDown"/>
+          <include name="SelectFirstPerferencedProgramTest"/>
+          <include name="scrolldown3Test"/>
+          <include name="EnterDOBTest"/>
+          <include name="SecondPerferencedropdownTest"/>
+          <include name="EnterAltNumberTest"/>
+          <include name="EnterFirstNameTest"/>
+          <include name="EnterMobileNumberTest"/>
+          <include name="EnterGrandFatherNameTest"/>
+          <include name="SelectSecondPerferencedProgramTest"/>
+          <include name="setUp"/>
+          <include name="EnterAbilitiesTestScoreTest"/>
+          <include name="EnterGradPercentageScoreTest"/>
+          <include name="EnterApplyNowPasswordTest"/>
+          <include name="EnterFamilyNameTest"/>
+          <include name="scrolldownTest"/>
+          <include name="DropdownDegreeTest"/>
+          <include name="SelectDegreeTypeTest"/>
+          <include name="EnterEmailidTest"/>
+          <include name="SelectTermTest"/>
+          <include name="changeenglangTest"/>
+          <include name="EnterMiddleNameTest"/>
+          <include name="ClickonNationalAttachmentTest"/>
+          <include name="EnterApplyNowConfirmPasswordTest"/>
+        </methods>
+      </class> <!-- com.sis.qa.testcases.ApplyNowPageTest -->
+    </classes>
+  </test> <!-- Smax Automation Test(failed) -->
+</suite> <!-- Failed suite [Gmail Suite] -->

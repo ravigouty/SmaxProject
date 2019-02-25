@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Smax Suite]" parallel="tests">
+  <test thread-count="1" name="Smax Automation Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.sis.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="loginTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sis.qa.testcases.LoginPageTest -->
+      <class name="com.sis.qa.testcases.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.sis.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Smax Automation Test(failed) -->
+</suite> <!-- Failed suite [Smax Suite] -->

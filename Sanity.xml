@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite thread-count="1" verbose="1" name="Smax Suite" annotations="JDK" parallel="tests">
+         
+  <test name="Smax Automation Test">
+	 <classes>
+     <class name="com.sis.qa.testcases.LoginPageTest"></class> 
+     <class name="com.sis.qa.testcases.HomePageTest"></class>
+<!--     <class name="com.sis.qa.testcases.ApplyNowPageTest"></class>        -->
+     <class name="com.sis.qa.testcases.AttendanceTypeCheckTest"></class>    
+     </classes>
+   </test>
+</suite>
